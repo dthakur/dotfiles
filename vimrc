@@ -7,3 +7,4 @@ set shiftwidth=4
 set expandtab
 set smarttab
 set autoindent
+syntax on

@@ -8,7 +8,7 @@ export HISTFILESIZE=
 
 export PS1='\h \w $ '
 
-alias ls='ls -G'
+alias ls='ls --color'
 alias grep='grep --color'
 
 # bash autocomplete (eg git)

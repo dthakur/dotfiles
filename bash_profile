@@ -1,3 +1,6 @@
+# local/bin
+export PATH=$PATH:$HOME/.local/bin
+
 # zsh message
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
@@ -5,6 +8,7 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export HISTCONTROL=ignoredups:erasedups
 export HISTSIZE=
 export HISTFILESIZE=
+shopt -s histappend
 
 export PS1='\h \w $ '
 

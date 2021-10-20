@@ -14,6 +14,7 @@ export PS1='\h \w $ '
 
 alias ls='ls --color'
 alias grep='grep --color'
+alias ta='tmux attach'
 
 # bash autocomplete (eg git)
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"

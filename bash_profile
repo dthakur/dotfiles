@@ -15,6 +15,7 @@ export PS1='\h \w $ '
 alias ls='ls --color'
 alias grep='grep --color'
 alias ta='tmux attach'
+alias dhcp-leases='sudo cat /var/lib/misc/dnsmasq.leases'
 
 # bash autocomplete (eg git)
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"

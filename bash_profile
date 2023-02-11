@@ -1,3 +1,6 @@
+# homebrew
+export HOMEBREW_NO_ANALYTICS=1
+
 # local/bin
 export PATH=$PATH:$HOME/.local/bin
 

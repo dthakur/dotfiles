@@ -17,8 +17,5 @@ alias ls='ls --color'
 alias grep='grep --color'
 alias ta='tmux attach'
 
-# ros
-alias cbpr='catkin build --profile release'
-
 # bash autocomplete (eg git)
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
